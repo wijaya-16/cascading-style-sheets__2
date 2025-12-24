@@ -1,0 +1,43 @@
+.box-1 {
+  width: 500px;
+  border: 8px solid bisque;
+  padding: 20px;
+  margin: 20px;
+  font-size: 20px;
+  text-align: justify;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+}
+
+.box-2 {
+  width: 300px;
+  border: 7px solid blue;
+  padding: 20px;
+  margin: 20px;
+  font-size: 20px;
+  text-align: justify;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+}
+
+.box-3 {
+  width: 900px;
+  border: 7px solid coral;
+  padding: 20px;
+  margin: 20px;
+  font-size: 20px;
+  text-align: justify;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+}
+
+.box-4 {
+  width: 700px;
+  border: 7px solid hotpink;
+  padding: 20px;
+  margin: 20px;
+  font-size: 20px;
+  text-align: justify;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+}
