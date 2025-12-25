@@ -1,0 +1,62 @@
+.box-1 {
+  width: 500px;
+  /* border: 8px solid bisque; */
+  padding: 20px;
+  margin: 20px;
+  font-size: 20px;
+  text-align: justify;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+}
+
+/* Penerapan Properti-border pada class */
+.box-1,
+.box-2,
+.box-3,
+.box-4 {
+  border-top-style: dashed;
+  border-right-style: double;
+  border-bottom-style: groove;
+  border-left-style: ridge;
+  border-width: 10px 15px 10px 15px;
+  border-top-color: blue;
+  border-right-color: salmon;
+  border-bottom-color: crimson;
+  border-left-color: deeppink;
+  /* border-style: double; */
+  /* border-bottom-width: 15px; */
+}
+/* Penerapan Properti-border pada class */
+
+.box-2 {
+  width: 300px;
+  /* border: 7px solid blue; */
+  padding: 20px;
+  margin: 20px;
+  font-size: 20px;
+  text-align: justify;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+}
+
+.box-3 {
+  width: 900px;
+  /* border: 7px solid coral; */
+  padding: 20px;
+  margin: 20px;
+  font-size: 20px;
+  text-align: justify;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+}
+
+.box-4 {
+  width: 700px;
+  /* border: 7px solid hotpink; */
+  padding: 20px;
+  margin: 20px;
+  font-size: 20px;
+  text-align: justify;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+}
