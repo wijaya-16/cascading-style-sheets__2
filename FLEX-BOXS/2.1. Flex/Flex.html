@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Flex.css" />
+    <title>FLEXBOX - Flex</title>
+  </head>
+  <body>
+    <h1>FLEX-ELEMENT- Flex {FLEXBOX}</h1>
+    <p>
+      <span
+        style="
+          background-color: yellowgreen;
+          padding: 2px;
+          border-radius: 3px;
+          font-weight: 600;
+        "
+        >Flex</span
+      >
+      adalah properti shorthand pada Flexbox yang digunakan untuk mengatur
+      bagaimana sebuah elemen mengatur ukurannya di dalam flex container.
+      Properti ini sekaligus menentukan apakah elemen boleh membesar, boleh
+      mengecil, dan dari ukuran awal berapa perhitungan itu dimulai. Jadi saat
+      kamu menulis flex, kamu sebenarnya sedang memberi aturan perilaku ukuran
+      pada satu elemen, bukan sekadar mengatur lebar atau tinggi.
+    </p>
+    <p>
+      Saat browser menghitung layout Flexbox, flex dibaca lebih dulu sebelum
+      flex-grow, flex-shrink, dan flex-basis diterapkan satu per satu. Karena
+      itu, properti ini sangat menentukan hasil akhir. Nilai tertentu bisa
+      membuat elemen otomatis berbagi ruang secara adil, sementara nilai lain
+      bisa mengunci ukuran agar tidak berubah walau ruang sempit atau longgar.
+    </p>
+    <p>
+      Intinya, flex adalah kendali utama ukuran elemen di Flexbox. Dengan satu
+      baris, kamu menentukan apakah elemen itu fleksibel atau kaku, ikut berbagi
+      ruang atau berdiri sendiri. Kalau ini sudah dipahami, perilaku Flexbox
+      jadi bisa diprediksi, bukan lagi coba-coba.
+    </p>
+    <hr />
+    <h2>FLEX : 1</h2>
+    <div class="container">
+      <div class="box-1">1</div>
+
+      <div class="box-2">2</div>
+
+      <div class="box-3">3</div>
+
+      <div class="box-4">4</div>
+      <!-- <div class="box-4-1">4.1</div>
+      <div class="box-4-2">4.2</div>
+      <div class="box-4-3">4.3</div>
+      <div class="box-4-4">4.4</div> -->
+    </div>
+    <br />
+    <hr />
+    <h2>FLEX : 2</h2>
+    <div class="container-2">
+      <div class="box-5">5</div>
+      <div class="box-6">6</div>
+      <div class="box-7">7</div>
+      <div class="box-8">8</div>
+      <!-- <div class="box-8-1">8.1</div>
+      <div class="box-8-2">8.2</div>
+      <div class="box-8-3">8.3</div>
+      <div class="box-8-4">8.4</div> -->
+    </div>
+
+    <!-- BATAS -->
+    <h2>FLEX : 1 30px</h2>
+    <div class="container-3">
+      <div class="box-9">9</div>
+
+      <div class="box-10">10</div>
+
+      <div class="box-11">11</div>
+
+      <div class="box-12">12</div>
+      <!-- <div class="box-12-1">12.1</div>
+      <div class="box-12-2">12.2</div>
+      <div class="box-12-3">12.3</div>
+      <div class="box-12-4">12.4</div> -->
+    </div>
+
+    <h2>FLEX : 1 1 100px</h2>
+    <div class="container-4">
+      <div class="box-13">13</div>
+
+      <div class="box-14">14</div>
+
+      <div class="box-15">15</div>
+
+      <div class="box-16">16</div>
+    </div>
+
+    <!-- BATAS -->
+    <!-- <h2>FLEX : </h2>
+    <div class="container-5">
+      <div class="box-17">17</div>
+
+      <div class="box-18">18</div>
+
+      <div class="box-19">19</div>
+
+      <div class="box-20">20</div>
+    </div> -->
+
+    <p class="referensi">
+      <a
+        href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/flex"
+        >Referensi Link : (JUSTIFY-FLEX {FLEXBOX})</a
+      >
+    </p>
+  </body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Flex-Grow.css" />
+    <title>FLEXBOX - Flex-Grow</title>
+  </head>
+  <body>
+    <h1>FLEX-ELEMENT-GROW {FLEXBOX}</h1>
+    <p>
+      <span
+        style="
+          background-color: yellowgreen;
+          padding: 2px;
+          border-radius: 3px;
+          font-weight: 600;
+        "
+        >Flex-Grow</span
+      >
+      adalah properti Flexbox yang mengatur seberapa besar sebuah elemen boleh
+      membesar untuk mengisi ruang kosong di dalam flex container. Kalau masih
+      ada sisa ruang setelah semua elemen ditempatkan, Flexbox tidak akan
+      membiarkannya kosong—ruang itu dibagi ke elemen berdasarkan nilai
+      flex-grow. Jadi ini soal siapa yang berhak mendapatkan ruang lebih.
+    </p>
+    <p>
+      Nilai default flex-grow adalah 0, artinya elemen tidak akan membesar
+      walaupun ada ruang kosong. Kalau kamu set flex-grow: 1, elemen itu akan
+      ikut mengisi ruang. Kalau satu elemen flex-grow: 2 dan yang lain 1, elemen
+      pertama dapat jatah dua kali lebih besar. Properti ini sering dipakai
+      untuk membuat kolom fleksibel atau konten yang otomatis melebar.
+      Singkatnya, flex-grow mengontrol ekspansi, bukan ukuran awal—bersih,
+      terukur, dan efisien.
+    </p>
+    <hr />
+    <h2>FLEX-GROW: 1</h2>
+    <div class="container">
+      <div class="box-1">1</div>
+
+      <div class="box-2">2</div>
+
+      <div class="box-3">3</div>
+
+      <div class="box-4">4</div>
+      <!-- <div class="box-4-1">4.1</div>
+      <div class="box-4-2">4.2</div>
+      <div class="box-4-3">4.3</div>
+      <div class="box-4-4">4.4</div> -->
+    </div>
+    <br />
+    <hr />
+    <h2>FLEX-GROW: 2</h2>
+    <div class="container-2">
+      <div class="box-5">5</div>
+      <div class="box-6">6</div>
+      <div class="box-7">7</div>
+      <div class="box-8">8</div>
+      <!-- <div class="box-8-1">8.1</div>
+      <div class="box-8-2">8.2</div>
+      <div class="box-8-3">8.3</div>
+      <div class="box-8-4">8.4</div> -->
+    </div>
+
+    <!-- BATAS -->
+    <h2>FLEX-GROW: 3</h2>
+    <div class="container-3">
+      <div class="box-9">9</div>
+
+      <div class="box-10">10</div>
+
+      <div class="box-11">11</div>
+
+      <div class="box-12">12</div>
+      <!-- <div class="box-12-1">12.1</div>
+      <div class="box-12-2">12.2</div>
+      <div class="box-12-3">12.3</div>
+      <div class="box-12-4">12.4</div> -->
+    </div>
+
+    <!-- <h2>JUSTIFY-CONTENT: SPACE-AROUND</h2>
+    <div class="container-4">
+      <div class="box-13">13</div>
+
+      <div class="box-14">14</div>
+
+      <div class="box-15">15</div>
+
+      <div class="box-16">16</div>
+    </div> -->
+
+    <!-- BATAS -->
+    <!-- <h2>JUSTIFY-CONTENT: SPACE-EVENLY</h2>
+    <div class="container-5">
+      <div class="box-17">17</div>
+
+      <div class="box-18">18</div>
+
+      <div class="box-19">19</div>
+
+      <div class="box-20">20</div>
+    </div> -->
+
+    <p class="referensi">
+      <a
+        href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/flex-grow"
+        >Referensi Link : (JUSTIFY-GROW {FLEXBOX})</a
+      >
+    </p>
+  </body>
+</html>

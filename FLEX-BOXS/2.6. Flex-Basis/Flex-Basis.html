@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Flex-Basis.css" />
+    <title>FLEXBOX - Flex-Basis</title>
+  </head>
+  <body>
+    <h1>FLEX-ELEMENT-BASIS {FLEXBOX}</h1>
+    <p>
+      <span
+        style="
+          background-color: yellowgreen;
+          padding: 2px;
+          border-radius: 3px;
+          font-weight: 600;
+        "
+        >Flex-Basis</span
+      >
+      adalah properti Flexbox yang menentukan ukuran awal sebuah flex item
+      sebelum flex-grow atau flex-shrink bekerja. Anggap saja ini adalah titik
+      start perhitungan ukuran elemen. Jadi sebelum elemen membesar, mengecil,
+      atau berbagi ruang, browser melihat dulu nilai flex-basis untuk tahu
+      “seberapa besar elemen ini seharusnya”.
+    </p>
+    <p>
+      Berbeda dengan width atau height, flex-basis selalu mengikuti arah main
+      axis. Kalau flex-direction row, dia mengatur lebar; kalau column, dia
+      mengatur tinggi. Karena itu, flex-basis jauh lebih relevan di Flexbox
+      dibanding width. Properti ini sering dipakai untuk memberi ukuran dasar
+      yang konsisten, lalu sisanya dibiarkan fleksibel lewat flex-grow dan
+      flex-shrink.
+    </p>
+    <p>
+      Singkatnya, flex-basis adalah fondasi ukuran dalam Flexbox. Tanpa ini,
+      flex-grow dan flex-shrink bekerja dari asumsi default browser. Dengan ini,
+      kamu mengontrol dari mana perhitungan dimulai—lebih presisi, lebih masuk
+      akal, dan tidak spekulatif.
+    </p>
+    <hr />
+    <h2>FLEX-BASIS: auto</h2>
+    <div class="container">
+      <div class="box-1">1</div>
+
+      <div class="box-2">2</div>
+
+      <div class="box-3">3</div>
+
+      <div class="box-4">4</div>
+      <!-- <div class="box-4-1">4.1</div>
+      <div class="box-4-2">4.2</div>
+      <div class="box-4-3">4.3</div>
+      <div class="box-4-4">4.4</div> -->
+    </div>
+    <br />
+    <hr />
+    <h2>FLEX-BASIS: 0</h2>
+    <div class="container-2">
+      <div class="box-5">5</div>
+      <div class="box-6">6</div>
+      <div class="box-7">7</div>
+      <div class="box-8">8</div>
+      <!-- <div class="box-8-1">8.1</div>
+      <div class="box-8-2">8.2</div>
+      <div class="box-8-3">8.3</div>
+      <div class="box-8-4">8.4</div> -->
+    </div>
+
+    <!-- BATAS -->
+    <h2>FLEX-BASIS: 200px and 500px and 900px</h2>
+    <div class="container-3">
+      <div class="box-9">9</div>
+
+      <div class="box-10">10</div>
+
+      <div class="box-11">11</div>
+
+      <div class="box-12">12</div>
+      <!-- <div class="box-12-1">12.1</div>
+      <div class="box-12-2">12.2</div>
+      <div class="box-12-3">12.3</div>
+      <div class="box-12-4">12.4</div> -->
+    </div>
+
+    <!-- <h2>FLEX-BASIS: COLUMN WRAP</h2>
+    <div class="container-4">
+      <div class="box-13">13</div>
+
+      <div class="box-14">14</div>
+
+      <div class="box-15">15</div>
+
+      <div class="box-16">16</div>
+    </div> -->
+
+    <!-- BATAS -->
+    <!-- <h2>FLEX-</h2>
+    <div class="container-5">
+      <div class="box-17">17</div>
+
+      <div class="box-18">18</div>
+
+      <div class="box-19">19</div>
+
+      <div class="box-20">20</div>
+    </div> -->
+
+    <p class="referensi">
+      <a
+        href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/flex-basis"
+        >Referensi Link : (JUSTIFY-BASIS {FLEXBOX})</a
+      >
+    </p>
+  </body>
+</html>

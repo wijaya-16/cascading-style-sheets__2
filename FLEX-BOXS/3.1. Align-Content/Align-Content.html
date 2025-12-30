@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Align-Content.css" />
+    <title>FLEXBOX - Align-Content</title>
+  </head>
+  <body>
+    <h1>ALIGN-CONTENT {FLEXBOX}</h1>
+    <p>
+      <span
+        style="
+          background-color: yellowgreen;
+          padding: 2px;
+          border-radius: 3px;
+          font-weight: 600;
+        "
+        >Align-Content</span
+      >
+      adalah properti Flexbox yang mengatur jarak dan distribusi baris flex di
+      sepanjang cross axis. Perhatikan: yang diatur bukan item satu per satu,
+      tapi kumpulan baris. Karena itu, align-content tidak akan bereaksi sama
+      sekali kalau flex container hanya punya satu baris.
+    </p>
+    <p>
+      Properti ini baru bekerja kalau dua syarat terpenuhi: container pakai
+      flex-wrap: wrap dan item membentuk lebih dari satu baris. Setelah itu,
+      align-content menentukan apakah baris-baris tersebut dirapatkan ke atas,
+      ke tengah, ke bawah, atau dibagi rata di ruang yang tersedia.
+    </p>
+
+    <hr />
+    <h2>ALIGN-CONTENT: START</h2>
+    <div class="container-1">
+      <div class="box-1">1</div>
+
+      <div class="box-2">2</div>
+
+      <div class="box-3">3</div>
+
+      <div class="box-4">4</div>
+      <!-- <div class="box-4-1">4.1</div>
+      <div class="box-4-2">4.2</div>
+      <div class="box-4-3">4.3</div>
+      <div class="box-4-4">4.4</div> -->
+    </div>
+    <br />
+    <hr />
+    <h2>ALIGN-CONTENT: CENTER</h2>
+    <div class="container-2">
+      <div class="box-5">5</div>
+      <div class="box-6">6</div>
+      <div class="box-7">7</div>
+      <div class="box-8">8</div>
+      <!-- <div class="box-8-1">8.1</div>
+      <div class="box-8-2">8.2</div>
+      <div class="box-8-3">8.3</div>
+      <div class="box-8-4">8.4</div> -->
+    </div>
+
+    <!-- BATAS -->
+    <h2>ALIGN-CONTENT: SPACE-BETWEEN</h2>
+    <div class="container-3">
+      <div class="box-9">9</div>
+
+      <div class="box-10">10</div>
+
+      <div class="box-11">11</div>
+
+      <div class="box-12">12</div>
+      <!-- <div class="box-12-1">12.1</div>
+      <div class="box-12-2">12.2</div>
+      <div class="box-12-3">12.3</div>
+      <div class="box-12-4">12.4</div> -->
+    </div>
+
+    <h2>ALIGN-CONTENT: SPACE-AROUND</h2>
+    <div class="container-4">
+      <div class="box-13">13</div>
+
+      <div class="box-14">14</div>
+
+      <div class="box-15">15</div>
+
+      <div class="box-16">16</div>
+    </div>
+
+    <!-- BATAS -->
+    <!-- <h2>FLEX-</h2>
+    <div class="container-5">
+      <div class="box-17">17</div>
+
+      <div class="box-18">18</div>
+
+      <div class="box-19">19</div>
+
+      <div class="box-20">20</div>
+    </div> -->
+
+    <p class="referensi">
+      <a
+        href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/align-content"
+        >Referensi Link : (ALIGN-CONTENT {FLEXBOX})</a
+      >
+    </p>
+  </body>
+</html>

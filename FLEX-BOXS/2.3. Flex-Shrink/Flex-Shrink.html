@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Flex-Shrink.css" />
+    <title>FLEXBOX - Flex-Shrink</title>
+  </head>
+  <body>
+    <h1>FLEX-ELEMENT-SHRINK {FLEXBOX}</h1>
+    <p>
+      <span
+        style="
+          background-color: yellowgreen;
+          padding: 2px;
+          border-radius: 3px;
+          font-weight: 600;
+        "
+        >Flex-Shrink</span
+      >
+      adalah properti Flexbox yang mengatur seberapa besar sebuah elemen boleh
+      mengecil ketika ruang di dalam container tidak cukup. Saat beberapa elemen
+      berada dalam satu baris dan total ukurannya melebihi lebar container,
+      Flexbox akan “memaksa” mereka mengecil. Nah, flex-shrink menentukan elemen
+      mana yang lebih rela menyusut dan mana yang dipertahankan ukurannya.
+    </p>
+    <p>
+      Nilai default flex-shrink adalah 1, artinya elemen boleh mengecil secara
+      proporsional. Kalau kamu set flex-shrink: 0, elemen itu tidak akan
+      mengecil sama sekali, meskipun elemen lain terpaksa menyusut lebih banyak.
+      Properti ini krusial saat kamu punya elemen penting—misalnya tombol utama
+      atau logo—yang tidak boleh gepeng. Intinya, flex-shrink adalah alat
+      kontrol agar layout tetap logis saat ruang sempit.
+    </p>
+    <hr />
+    <h2>FLEX-SHRINK: 0</h2>
+    <div class="container">
+      <div class="box-1">1</div>
+
+      <div class="box-2">2</div>
+
+      <div class="box-3">3</div>
+
+      <div class="box-4">4</div>
+      <div class="box-4-1">4.1</div>
+      <div class="box-4-2">4.2</div>
+      <div class="box-4-3">4.3</div>
+      <div class="box-4-4">4.4</div>
+    </div>
+    <br />
+    <hr />
+    <h2>FLEX-SHRINK: 1</h2>
+    <div class="container-2">
+      <div class="box-5">5</div>
+      <div class="box-6">6</div>
+      <div class="box-7">7</div>
+      <div class="box-8">8</div>
+      <div class="box-8-1">8.1</div>
+      <div class="box-8-2">8.2</div>
+      <div class="box-8-3">8.3</div>
+      <div class="box-8-4">8.4</div>
+    </div>
+
+    <!-- BATAS -->
+    <h2>FLEX-SHRINK: 2</h2>
+    <div class="container-3">
+      <div class="box-9">9</div>
+
+      <div class="box-10">10</div>
+
+      <div class="box-11">11</div>
+
+      <div class="box-12">12</div>
+      <div class="box-12-1">12.1</div>
+      <div class="box-12-2">12.2</div>
+      <div class="box-12-3">12.3</div>
+      <div class="box-12-4">12.4</div>
+    </div>
+    <!--  -->
+
+    <!-- <h2>JUSTIFY-SHRINK: </h2>
+    <div class="container-4">
+      <div class="box-13">13</div>
+
+      <div class="box-14">14</div>
+
+      <div class="box-15">15</div>
+
+      <div class="box-16">16</div>
+    </div> -->
+
+    <!-- BATAS -->
+    <!-- <h2>JUSTIFY-SHRINK: </h2>
+    <div class="container-5">
+      <div class="box-17">17</div>
+
+      <div class="box-18">18</div>
+
+      <div class="box-19">19</div>
+
+      <div class="box-20">20</div>
+    </div> -->
+
+    <p>
+      <a
+        href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/flex-shrink"
+        >Referensi Link : (JUSTIFY-SHRINK {FLEXBOX})</a
+      >
+    </p>
+  </body>
+</html>

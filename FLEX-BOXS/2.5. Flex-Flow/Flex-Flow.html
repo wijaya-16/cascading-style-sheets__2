@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Flex-Flow.css" />
+    <title>FLEXBOX - Flex-Flow</title>
+  </head>
+  <body>
+    <h1>FLEX-ELEMENT-FLOW {FLEXBOX}</h1>
+    <p>
+      <span
+        style="
+          background-color: yellowgreen;
+          padding: 2px;
+          border-radius: 3px;
+          font-weight: 600;
+        "
+        >Flex-Flow</span
+      >
+      adalah properti Flexbox yang berfungsi untuk mengatur arah susunan elemen
+      (penulisan syntax pada parent element-nya) sekaligus menentukan apakah
+      elemen boleh pindah baris atau tidak. Properti ini sebenarnya gabungan
+      dari dua properti penting: flex-direction dan flex-wrap. Jadi saat kamu
+      menulis flex-flow, kamu sedang membuat satu keputusan layout yang utuh,
+      bukan dua pengaturan terpisah.
+    </p>
+    <p>
+      Ketika sebuah container memakai flex-flow, browser langsung tahu elemen
+      disusun ke mana dan bagaimana perilakunya saat ruang tidak cukup.
+      Misalnya, arah ke samping tapi boleh turun baris, atau ke bawah dan tetap
+      satu kolom. Ini sangat berguna untuk layout responsif karena perilaku
+      elemen sudah jelas sejak awal, tanpa perlu banyak aturan tambahan.
+    </p>
+    <p>
+      Intinya, flex-flow membuat kode CSS lebih ringkas, lebih terbaca, dan
+      lebih terkontrol. Kamu tidak lagi mikir “arah dulu, wrap belakangan”, tapi
+      langsung menetapkan pola layout-nya. Kalau Flexbox itu sistem penyusun,
+      maka flex-flow adalah blueprint-nya.
+    </p>
+    <hr />
+    <h2>FLEX-FLOW: ROW WRAP</h2>
+    <div class="container">
+      <div class="box-1">1</div>
+
+      <div class="box-2">2</div>
+
+      <div class="box-3">3</div>
+
+      <div class="box-4">4</div>
+      <!-- <div class="box-4-1">4.1</div>
+      <div class="box-4-2">4.2</div>
+      <div class="box-4-3">4.3</div>
+      <div class="box-4-4">4.4</div> -->
+    </div>
+    <br />
+    <hr />
+    <h2>FLEX-FLOW: ROW-REVERSE NOWRAP</h2>
+    <div class="container-2">
+      <div class="box-5">5</div>
+      <div class="box-6">6</div>
+      <div class="box-7">7</div>
+      <div class="box-8">8</div>
+      <!-- <div class="box-8-1">8.1</div>
+      <div class="box-8-2">8.2</div>
+      <div class="box-8-3">8.3</div>
+      <div class="box-8-4">8.4</div> -->
+    </div>
+
+    <!-- BATAS -->
+    <h2>FLEX-FLOW: COLUMN WRAP-REVERSE</h2>
+    <div class="container-3">
+      <div class="box-9">9</div>
+
+      <div class="box-10">10</div>
+
+      <div class="box-11">11</div>
+
+      <div class="box-12">12</div>
+      <!-- <div class="box-12-1">12.1</div>
+      <div class="box-12-2">12.2</div>
+      <div class="box-12-3">12.3</div>
+      <div class="box-12-4">12.4</div> -->
+    </div>
+
+    <!-- <h2>FLEX-FLOW: COLUMN WRAP</h2>
+    <div class="container-4">
+      <div class="box-13">13</div>
+
+      <div class="box-14">14</div>
+
+      <div class="box-15">15</div>
+
+      <div class="box-16">16</div>
+    </div> -->
+
+    <!-- BATAS -->
+    <!-- <h2>FLEX-</h2>
+    <div class="container-5">
+      <div class="box-17">17</div>
+
+      <div class="box-18">18</div>
+
+      <div class="box-19">19</div>
+
+      <div class="box-20">20</div>
+    </div> -->
+
+    <p class="referensi">
+      <a
+        href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/flex-flow"
+        >Referensi Link : (JUSTIFY-FLOW {FLEXBOX})</a
+      >
+    </p>
+  </body>
+</html>

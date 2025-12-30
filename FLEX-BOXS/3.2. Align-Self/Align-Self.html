@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Align-Self.css" />
+    <title>FLEXBOX - Align-Self</title>
+  </head>
+  <body>
+    <h1>ALIGN-SELF {FLEXBOX}</h1>
+    <p>
+      <span
+        style="
+          background-color: yellowgreen;
+          padding: 2px;
+          border-radius: 3px;
+          font-weight: 600;
+        "
+        >Align-Self</span
+      >
+      adalah properti Flexbox yang digunakan untuk mengatur perataan satu elemen
+      saja di sepanjang cross axis, tanpa memengaruhi elemen lain. Properti ini
+      bekerja di level flex item, bukan container. Artinya, dia bisa menimpa
+      (override) align-items yang sudah ditetapkan di parent.
+    </p>
+    <p>
+      Kalau align-items itu aturan umum, maka align-self adalah pengecualian.
+      Saat satu elemen perlu posisi berbeda—misalnya satu card harus rata bawah
+      sementara yang lain rata tengah—align-self adalah solusi yang benar, bukan
+      trik margin atau positioning.
+    </p>
+
+    <hr />
+    <h2>ALIGN-SELF: STRETCH</h2>
+    <div class="container-1">
+      <div class="box-1">1</div>
+
+      <div class="box-2">2</div>
+
+      <div class="box-3">3</div>
+
+      <div class="box-4">4</div>
+      <!-- <div class="box-4-1">4.1</div>
+      <div class="box-4-2">4.2</div>
+      <div class="box-4-3">4.3</div>
+      <div class="box-4-4">4.4</div> -->
+    </div>
+    <br />
+    <hr />
+    <h2>ALIGN-SELF: CENTER</h2>
+    <div class="container-2">
+      <div class="box-5">5</div>
+      <div class="box-6">6</div>
+      <div class="box-7">7</div>
+      <div class="box-8">8</div>
+      <!-- <div class="box-8-1">8.1</div>
+      <div class="box-8-2">8.2</div>
+      <div class="box-8-3">8.3</div>
+      <div class="box-8-4">8.4</div> -->
+    </div>
+
+    <!-- BATAS -->
+    <h2>ALIGN-SELF: START</h2>
+    <div class="container-3">
+      <div class="box-9">9</div>
+
+      <div class="box-10">10</div>
+
+      <div class="box-11">11</div>
+
+      <div class="box-12">12</div>
+      <!-- <div class="box-12-1">12.1</div>
+      <div class="box-12-2">12.2</div>
+      <div class="box-12-3">12.3</div>
+      <div class="box-12-4">12.4</div> -->
+    </div>
+
+    <h2>ALIGN-SELF: END</h2>
+    <div class="container-4">
+      <div class="box-13">13</div>
+
+      <div class="box-14">14</div>
+
+      <div class="box-15">15</div>
+
+      <div class="box-16">16</div>
+    </div>
+
+    <!-- BATAS -->
+    <!-- <h2>FLEX-</h2>
+    <div class="container-5">
+      <div class="box-17">17</div>
+
+      <div class="box-18">18</div>
+
+      <div class="box-19">19</div>
+
+      <div class="box-20">20</div>
+    </div> -->
+
+    <p class="referensi">
+      <a
+        href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/align-self"
+        >Referensi Link : (ALIGN-SELF {FLEXBOX})</a
+      >
+    </p>
+  </body>
+</html>
